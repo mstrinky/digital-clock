@@ -10,25 +10,49 @@ body{
     background-repeat: no-repeat;
     background-position:center ;
     background-size: cover;
-    width: 100%;
+    /* width: 100%; */
 }
-h2{
-    text-transform: uppercase;
-    letter-spacing:3px;
-    font-size: 15px;
-    text-align: center;
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size:30px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px  rgba(151, 9, 87, 0.9);
 }
-.clock div{
-    margin: 5px;
-}
-.clock span{
-    width: 100px;
-    height: 50px;
-    background:rgb(85, 5, 18);
-    color: white;
+.clock {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.clock div {
+    margin: 5px;
+    position: relative;
+}
+.clock span {
+    width: 100px;
+    height: 80px;
+    background:pink;
+    opacity: .8;
+    color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 50px;
+   text-shadow: 2px 2px 4px  rgba(151, 9, 87, 0.9);
+
+}
+.clock .text {
+    height: 50px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgb(190, 13, 81);
+   opacity: .7;
+}
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    font-size: 15px;
+    background: rgb(12, 167, 133);
 }
