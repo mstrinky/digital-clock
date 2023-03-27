@@ -11,6 +11,7 @@ body{
     background-position:center ;
     background-size: cover;
     /* width: 100%; */
+    overflow: hidden;
 }
 h2 {
   text-transform: uppercase;
@@ -18,7 +19,7 @@ h2 {
   font-size:30px;
   text-align: center;
   color: white;
-  text-shadow: 2px 2px 4px  rgba(151, 9, 87, 0.9);
+  text-shadow: 2px 2px 4px  rgba(248, 174, 236, 0.9);
 }
 .clock {
     display: flex;
@@ -30,7 +31,7 @@ h2 {
 .clock span {
     width: 100px;
     height: 80px;
-    background:rgb(201, 169, 231);
+    background:rgb(238, 144, 210);
     opacity: .8;
     color: white;
    display: flex;
